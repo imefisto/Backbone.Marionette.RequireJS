@@ -4,14 +4,14 @@
 require.config({
 	paths: {
 		jquery: 'libs/jquery.min',
-		underscore: 'libs/underscore-min',
-		backbone: 'libs/backbone-min',
+		underscore: 'libs/underscore',
+		backbone: 'libs/backbone',
 		marionette: 'libs/backbone.marionette.min',
 		tpl: 'templates/tpl'
 	},
 	shim:{
 		jquery: {
-			exports: 'jQuery'
+			exports: 'jquery'
 		},
 		underscore: {
 			exports: '_'
@@ -21,7 +21,7 @@ require.config({
 			exports: 'Backbone'
 		},
 		marionette: {
-			deps: ['jquery', 'underscore', 'backbone'],
+			deps: ['backbone'],
 			exports: 'Marionette'
 		}
 
