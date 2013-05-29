@@ -4,4 +4,4 @@
 
 node r.js -o build.js
 
-# To use application without optimizations, replace, in index.html, "app-built" with "app" 
+# To use application without optimizations, replace, in index.html, "built/main" with "js/main" 
